@@ -1,5 +1,3 @@
-#This code demonstrate how to show location of hand landmark
-
 import cv2
 import mediapipe as mp
 
@@ -94,5 +92,3 @@ while True:
     
     cv2.imshow("Image", img)
     cv2.waitKey(1)
-#Closeing all open windows
-#cv2.destroyAllWindows()
