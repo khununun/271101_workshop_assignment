@@ -75,17 +75,17 @@ while True:
 ####################################################Middle########################################################
 
             if cy12 < cy10:
-                cv2.putText(img, str("Middle"), (280, 50), cv2.FONT_HERSHEY_PLAIN, 2,(255, 204, 255), 3)
+                cv2.putText(img, str("Middle"), (270, 50), cv2.FONT_HERSHEY_PLAIN, 2,(255, 204, 255), 3)
 
 ####################################################Ring##########################################################
 
             if cy16 < cy14:
-                cv2.putText(img, str("Ring  "), (380, 50), cv2.FONT_HERSHEY_PLAIN, 2,(255, 204, 255), 3)
+                cv2.putText(img, str("Ring  "), (400, 50), cv2.FONT_HERSHEY_PLAIN, 2,(255, 204, 255), 3)
 
 ####################################################pinky#########################################################
 
             if cy20 < cy18:
-                cv2.putText(img, str("Pinky "), (480, 50), cv2.FONT_HERSHEY_PLAIN, 2,(255, 204, 255), 3)
+                cv2.putText(img, str("Pinky "), (500, 50), cv2.FONT_HERSHEY_PLAIN, 2,(255, 204, 255), 3)
             else:
                  cv2.putText(img, str( ), (30, 70), cv2.FONT_HERSHEY_PLAIN, 2,(255, 204, 255), 2)
 
